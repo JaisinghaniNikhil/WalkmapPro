@@ -1,101 +1,87 @@
-<<<<<<< HEAD
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# WalkmapPro 🚶‍♂️📱
 
-# Getting Started
+WalkmapPro is a feature-rich React Native app that helps users stay fit by tracking their steps and location in real time. It goes beyond a basic pedometer by integrating a reward system, runner mode, live tracking, and much more.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+## ✨ Features
 
-## Step 1: Start Metro
+- 🗺️ Real-Time Location Tracking with map view  
+- 🔵 Path Marking (adds blue marks to map as you walk)  
+- 🏃 Runner Mode (calculates running speed using the accelerometer)  
+- 🧮 Step Counter with calories & distance calculator  
+- 🪙 Fitcoins System (rewards users based on activity)  
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+---
 
-```sh
-# Using npm
+## 🚀 Getting Started
+
+> **Note**: Make sure your development environment is set up. Follow [React Native's setup guide](https://reactnative.dev/docs/environment-setup) before continuing.
+
+### Step 1: Clone and Install
+
+```bash
+git clone https://github.com/JaisinghaniNikhil/WalkmapPro.git
+cd WalkmapPro
+
+# Install dependencies
+npm install
+
+
+Step 2: Start Metro Server
+bash
+Copy
+Edit
 npm start
-
-# OR using Yarn
+# OR
 yarn start
-```
 
-## Step 2: Build and run your app
-
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
-
-### Android
-
-```sh
-# Using npm
+Step 3: Run the App
+For Android
+bash
+Copy
+Edit
 npm run android
-
-# OR using Yarn
+# OR
 yarn android
-```
+Make sure your emulator is running or a real device is connected via USB.
 
-### iOS
+For iOS (Mac only)
+bash
+Copy
+Edit
+cd ios
+pod install
+cd ..
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
-
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
-bundle install
-```
-
-Then, and every time you update your native dependencies, run:
-
-```sh
-bundle exec pod install
-```
-
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
 npm run ios
-
-# OR using Yarn
+# OR
 yarn ios
-```
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+🛠️ Developer Tips
+Modify App.tsx to customize the app
 
-## Step 3: Modify your app
+Use Fast Refresh to see live updates
 
-Now that you have successfully run the app, let's make changes!
+Double-tap R on Android Emulator to reload
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+For full reload: <kbd>Ctrl</kbd> + <kbd>M</kbd> or shake your device
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+📦 Tech Stack
+React Native
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+Node.js + Express.js
 
-## Congratulations! :tada:
+MongoDB
 
-You've successfully run and modified your React Native App. :partying_face:
+Google Maps API
 
-### Now what?
+Firebase (if used)
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
+Native Sensors (Accelerometer)
 
-# Troubleshooting
+👨‍💻 Author
+Made with ❤️ by Nikhil Jaisinghani
 
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
-=======
 # WalkmapPro
 >>>>>>> 723df0a76eb83d892cab614b0bf61978ef817db2
